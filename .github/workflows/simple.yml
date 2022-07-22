@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: echo a string
-        run: echo "Github Action Demo"
+        run: eccho "Github Action Demo"
       - name: multiline script
         run: |
           java -version
