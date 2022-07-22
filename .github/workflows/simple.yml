@@ -6,4 +6,8 @@ jobs:
     steps: 
       - name: echo a string
         run: echo "Github Action Demo"
-        
+      - name: multiline script
+        run: |
+          java -version
+          node -v
+          npm -v  
